@@ -31,7 +31,7 @@ The Mac does an outbound poll to Anthropic's bridge — no inbound port, no SSH,
 
 **Verb: "I'm AT my Mac, through my phone."**
 
-You open Moshi, the dashboard appears, you see all your cmux workspaces by name, you pick "compta" or "client-call-prep" and you're in. You can `vim`, `git push`, run scripts, browse files, run multiple Claude sessions in parallel, ask cmux to spawn a new project, do anything you'd do at the keyboard.
+You open Moshi, the dashboard appears, you see all your cmux workspaces by name, you pick "accounting" or "client-call-prep" and you're in. You can `vim`, `git push`, run scripts, browse files, run multiple Claude sessions in parallel, ask cmux to spawn a new project, do anything you'd do at the keyboard.
 
 The bridge uses the standard Mosh + tmux stack (which has been mature since 2012) and adds a custom dashboard that resolves cmux's friendly workspace titles. The crash safety comes from `tmux-resurrect` + `tmux-continuum` auto-saving every 5 minutes.
 
@@ -48,7 +48,7 @@ The bridge uses the standard Mosh + tmux stack (which has been mature since 2012
 - Slightly higher friction first time you configure it (this README + install.sh = ~10 min)
 
 **When to pick it**
-- You do mixed work: compta in `vim`, Claude in another pane, a script in a third
+- You do mixed work: accounting work in `vim`, Claude in another pane, a script in a third
 - You want session survival across crashes
 - You want to start a project from scratch on the move
 - You have multiple projects and want to switch between them by name

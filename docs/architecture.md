@@ -18,9 +18,9 @@ When any one of these evolves (Anthropic adds session restore to cmux in 0.64, M
 
 ## Why a custom dashboard
 
-cmux stores friendly workspace titles (`"compta"`, `"client-call-prep"`) in its internal JSON metadata. It does **not** propagate them to tmux session names — those stay as `ttysNNN` (the controlling pty of the cmux shell).
+cmux stores friendly workspace titles (`"accounting"`, `"client-call-prep"`) in its internal JSON metadata. It does **not** propagate them to tmux session names — those stay as `ttysNNN` (the controlling pty of the cmux shell).
 
-Moshi's native tmux picker shows tmux session names. So out of the box, you see `ttys000`, `ttys001`, ..., `ttys047` — unusable for picking "the compta one".
+Moshi's native tmux picker shows tmux session names. So out of the box, you see `ttys000`, `ttys001`, ..., `ttys047` — unusable for picking "the accounting one".
 
 The dashboard reconstructs the mapping LIVE, every time the menu opens, via three reads:
 

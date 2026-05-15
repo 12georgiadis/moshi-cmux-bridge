@@ -12,7 +12,7 @@ The safeguards, in order:
 grep -E '^ttys[0-9]+$'
 ```
 
-Named sessions you created yourself (`goldberg`, `project-alpha`, etc.) are **never** touched. The cleanup only considers sessions matching `ttys` followed by digits — the pattern cmux uses.
+Named sessions you created yourself (`project-alpha`, `staging-deploy`, etc.) are **never** touched. The cleanup only considers sessions matching `ttys` followed by digits — the pattern cmux uses.
 
 ## 2. Orphan definition: no live owning process
 

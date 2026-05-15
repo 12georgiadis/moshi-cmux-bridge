@@ -1,7 +1,7 @@
 #!/bin/bash
 # dashboard.sh — Moshi dashboard for cmux workspaces + named tmux sessions
 #
-# Lists cmux workspaces by their FRIENDLY title (compta, project-X, etc.)
+# Lists cmux workspaces by their FRIENDLY title (accounting, project-X, etc.)
 # alongside any named tmux sessions you have, and attaches to whichever you pick.
 #
 # Auto-invoked from .zshrc when MOSHI_CLIENT=1.
