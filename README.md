@@ -6,7 +6,7 @@ Built by [Ismaël Joffroy Chandoutis](https://ismaeljoffroychandoutis.com) — a
 
 ## What it does, in one sentence
 
-Open Moshi on your phone → tap your Mac → **bam, you see a menu of your real cmux workspaces by name** ("compta", "goldberg-edit", "client-call-prep"...), pick one, you're attached.
+Open Moshi on your phone → tap your Mac → **bam, you see a menu of your real cmux workspaces by name** ("accounting", "documentary-edit", "client-call-prep"...), pick one, you're attached.
 
 ## The 30-second demo
 
@@ -16,14 +16,14 @@ Open Moshi on your phone → tap your Mac → **bam, you see a menu of your real
 ===================================================
 
   CMUX workspaces
-    1) compta
-    2) goldberg-edit
+    1) accounting
+    2) documentary-edit
     3) client-call-prep
     4) INBOX
-    5) research-foia-appeal
+    5) research-archive-pipeline
 
   Sessions tmux nommées
-    6) project-alpha  [attachée]
+    6) project-alpha  [attached]
     7) deploy-staging
 
   --------------------------------------------------
