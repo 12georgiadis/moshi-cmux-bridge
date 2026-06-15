@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use or cite this work, please credit it as below."
+title: "moshi-cmux-bridge"
+abstract: "Turn your iPhone/iPad into a real entry point to your Mac. Friendly cmux workspace names in a Moshi-ready dashboard. Crash-safe via tmux-resurrect."
+type: software
+authors:
+  - given-names: "Ismaël"
+    family-names: "Joffroy Chandoutis"
+    website: "https://github.com/12georgiadis"
+repository-code: "https://github.com/12georgiadis/moshi-cmux-bridge"
+url: "https://github.com/12georgiadis/moshi-cmux-bridge"
+license: PolyForm-Noncommercial-1.0.0
